@@ -21,5 +21,5 @@ async def get_message(message: types.Message):
 
 @dp.message_handler(commands=['start', 'help'], commands_prefix='!/')
 async def start(message: types.Message):
-    await message.reply("Untuk mengunduh video, cukup kirimkan tautan video tiktok anda")
+    await message.reply("Untuk mengunduh video,kirimkan tautan video tiktok anda")
 
